@@ -1,0 +1,189 @@
+##Variables, Statements, and Expressions: A Learning Task
+📝 Variables
+A variable is a storage location in memory that holds a value.
+Example:
+
+python
+Copy
+Edit
+x = 5
+Assigning Values to Variables
+python
+Copy
+Edit
+x = 12
+y = 2.14
+z = 'Game'
+print(type(x), type(y), type(z))  # Output: <class 'int'> <class 'float'> <class 'str'>
+🧮 Expressions
+An expression is a combination of variables, values, and operators that evaluates to a result.
+Example:
+
+python
+Copy
+Edit
+result = x + 3  # Evaluates to 8 if x = 5
+📢 Statements
+A statement is a line of code that performs an action, such as assigning a value or calling a function.
+Example:
+
+python
+Copy
+Edit
+print("Hello, World!")
+🔢 Data Types
+Data types specify what kind of value a variable can hold.
+
+Common Data Types:
+python
+Copy
+Edit
+a = 5         # Integer
+b = 'Python'  # String
+c = 3.14      # Float
+print(type(a), type(b), type(c))
+🔄 Type Conversions
+Type conversion is the process of changing a value from one data type to another.
+Example:
+
+python
+Copy
+Edit
+num = '123'
+convert = int(num)
+print(convert, type(convert))  # Output: 123 <class 'int'>
+➕ Operators and Operands
+Arithmetic Operators:
+python
+Copy
+Edit
+a = 2
+b = 6
+
+print("Addition:", a + b)          # 8
+print("Subtraction:", a - b)       # -4
+print("Multiplication:", a * b)    # 12
+print("Division:", a / b)          # 0.3333
+Comparison Operators:
+python
+Copy
+Edit
+x = 5
+y = 2
+
+print("x > y:", x > y)   # True
+print("x < y:", x < y)   # False
+print("x == y:", x == y) # False
+print("x != y:", x != y) # True
+Logical Operators:
+python
+Copy
+Edit
+x = True  
+y = False
+
+print("x and y:", x and y)  # False
+print("x or y:", x or y)    # True
+print("not x:", not x)      # False
+🏗 Function Calls
+A function call executes a block of reusable code.
+
+Using Built-in Functions:
+python
+Copy
+Edit
+num = [4, 2, 7, 1]
+print(max(num) - min(num))  # Output: 6
+Functions as Objects:
+python
+Copy
+Edit
+greet = print
+greet('Hello, World!')  # Output: Hello, World!
+🔄 Reassigning Variables
+python
+Copy
+Edit
+x = 9
+y = 6
+print("Initial values:", x, y)
+
+x = 20
+y = 10
+print("Updated values:", x, y)
+❌ Variable Names and Keywords
+Reserved Keywords (Invalid Variables)
+python
+Copy
+Edit
+import keyword
+print(keyword.kwlist)  # Lists all Python keywords
+
+# Attempting to use a reserved keyword (SyntaxError)
+try:
+    def = 10  
+    print(def)
+except SyntaxError:
+    print("You cannot use a reserved keyword as a variable name.")
+🔍 Choosing the Right Variable Name
+Using meaningful names improves readability.
+
+🔴 Bad Example:
+
+python
+Copy
+Edit
+a = 500  
+b = 18  
+c = a * (b / 100)  
+d = a + c  
+print(d)  
+🟢 Better Example:
+
+python
+Copy
+Edit
+principal_amount = 500  
+interest_rate = 18  
+interest = principal_amount * (interest_rate / 100)  
+total_amount = principal_amount + interest  
+print(total_amount)  
+🏗 Statements vs Expressions
+✅ Statement:
+
+python
+Copy
+Edit
+x = 5 + 3  # Assignment statement
+print(x)   # Print statement
+✅ Expression:
+
+python
+Copy
+Edit
+5 + 3  # Evaluates to 8
+🔢 Order of Operations
+python
+Copy
+Edit
+result = 2 + 3 * 4 ** 2 / 8
+print(result)  # 8.0
+🔁 Reassignment & Updating Variables
+Reassigning:
+python
+Copy
+Edit
+count = 10
+print(count)  # Output: 10
+count = 20
+print(count)  # Output: 20
+Incrementing and Decrementing:
+python
+Copy
+Edit
+score = 100
+score += 10
+print(score)  # Output: 110
+
+score -= 5
+print(score)  # Output: 105
