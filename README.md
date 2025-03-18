@@ -1,2 +1,0 @@
-# python-trainingtasks
-python-task
