@@ -1,4 +1,5 @@
 VARIABLES, STATEMENTS, AND EXPRESSIONS: A LEARNING TASK
+
 📝 VARIABLES
 A variable is a storage location in memory that holds a value.
 Example:
@@ -16,6 +17,7 @@ y = 2.14
 z = 'Game'
 print(type(x), type(y), type(z))  # Output: <class 'int'> <class 'float'> <class 'str'>
 
+
 🧮 EXPRESSIONS
 An expression is a combination of variables, values, and operators that evaluates to a result.
 Example:
@@ -25,6 +27,7 @@ Copy
 Edit
 result = x + 3  # Evaluates to 8 if x = 5
 
+
 📢 STATEMENTS
 A statement is a line of code that performs an action, such as assigning a value or calling a function.
 Example:
@@ -33,6 +36,7 @@ python
 Copy
 Edit
 print("Hello, World!")
+
 
 🔢 DATA TYPES
 Data types specify what kind of value a variable can hold.
@@ -46,6 +50,7 @@ b = 'Python'  # String
 c = 3.14      # Float
 print(type(a), type(b), type(c))
 
+
 🔄 TYPE CONVERSIONS
 Type conversion is the process of changing a value from one data type to another.
 Example:
@@ -56,6 +61,7 @@ Edit
 num = '123'
 convert = int(num)
 print(convert, type(convert))  # Output: 123 <class 'int'>
+
 
 ➕ OPERATORS AND OPERANDS
 ARITHMETIC OPERATORS:
@@ -91,6 +97,7 @@ print("x and y:", x and y)  # False
 print("x or y:", x or y)    # True
 print("not x:", not x)      # False
 
+
 🏗 FUNCTION CALLS
 A function call executes a block of reusable code.
 
@@ -107,6 +114,7 @@ Edit
 greet = print
 greet('Hello, World!')  # Output: Hello, World!
 
+
 🔄 REASSIGNING VARIABLES
 python
 Copy
@@ -118,6 +126,7 @@ print("Initial values:", x, y)
 x = 20
 y = 10
 print("Updated values:", x, y)
+
 
 ❌ VARIABLE NAMES AND KEYWORDS
 RESERVED KEYWORDS (INVALID VARIABLES)
@@ -134,8 +143,10 @@ try:
 except SyntaxError:
     print("You cannot use a reserved keyword as a variable name.")
 
+
 🔍 CHOOSING THE RIGHT VARIABLE NAME
 Using meaningful names improves readability.
+
 
 
 🔴 BAD EXAMPLE:
@@ -149,6 +160,7 @@ c = a * (b / 100)
 d = a + c  
 print(d)  
 
+
 🟢 BETTER EXAMPLE:
 
 python
@@ -159,6 +171,7 @@ interest_rate = 18
 interest = principal_amount * (interest_rate / 100)  
 total_amount = principal_amount + interest  
 print(total_amount)  
+
 
 🏗 STATEMENTS VS EXPRESSIONS
 ✅ STATEMENT:
@@ -175,12 +188,14 @@ Copy
 Edit
 5 + 3  # Evaluates to 8
 
+
 🔢 ORDER OF OPERATIONS
 python
 Copy
 Edit
 result = 2 + 3 * 4 ** 2 / 8
 print(result)  # 8.0
+
 
 🔁 REASSIGNMENT & UPDATING VARIABLES
 REASSIGNING:
