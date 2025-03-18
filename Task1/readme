@@ -15,6 +15,7 @@ x = 12
 y = 2.14
 z = 'Game'
 print(type(x), type(y), type(z))  # Output: <class 'int'> <class 'float'> <class 'str'>
+
 🧮 EXPRESSIONS
 An expression is a combination of variables, values, and operators that evaluates to a result.
 Example:
@@ -23,6 +24,7 @@ python
 Copy
 Edit
 result = x + 3  # Evaluates to 8 if x = 5
+
 📢 STATEMENTS
 A statement is a line of code that performs an action, such as assigning a value or calling a function.
 Example:
@@ -31,6 +33,7 @@ python
 Copy
 Edit
 print("Hello, World!")
+
 🔢 DATA TYPES
 Data types specify what kind of value a variable can hold.
 
@@ -42,6 +45,7 @@ a = 5         # Integer
 b = 'Python'  # String
 c = 3.14      # Float
 print(type(a), type(b), type(c))
+
 🔄 TYPE CONVERSIONS
 Type conversion is the process of changing a value from one data type to another.
 Example:
@@ -52,6 +56,7 @@ Edit
 num = '123'
 convert = int(num)
 print(convert, type(convert))  # Output: 123 <class 'int'>
+
 ➕ OPERATORS AND OPERANDS
 ARITHMETIC OPERATORS:
 python
@@ -85,6 +90,7 @@ y = False
 print("x and y:", x and y)  # False
 print("x or y:", x or y)    # True
 print("not x:", not x)      # False
+
 🏗 FUNCTION CALLS
 A function call executes a block of reusable code.
 
@@ -100,6 +106,7 @@ Copy
 Edit
 greet = print
 greet('Hello, World!')  # Output: Hello, World!
+
 🔄 REASSIGNING VARIABLES
 python
 Copy
@@ -111,6 +118,7 @@ print("Initial values:", x, y)
 x = 20
 y = 10
 print("Updated values:", x, y)
+
 ❌ VARIABLE NAMES AND KEYWORDS
 RESERVED KEYWORDS (INVALID VARIABLES)
 python
@@ -125,8 +133,10 @@ try:
     print(def)
 except SyntaxError:
     print("You cannot use a reserved keyword as a variable name.")
+
 🔍 CHOOSING THE RIGHT VARIABLE NAME
 Using meaningful names improves readability.
+
 
 🔴 BAD EXAMPLE:
 
@@ -138,6 +148,7 @@ b = 18
 c = a * (b / 100)  
 d = a + c  
 print(d)  
+
 🟢 BETTER EXAMPLE:
 
 python
@@ -148,6 +159,7 @@ interest_rate = 18
 interest = principal_amount * (interest_rate / 100)  
 total_amount = principal_amount + interest  
 print(total_amount)  
+
 🏗 STATEMENTS VS EXPRESSIONS
 ✅ STATEMENT:
 
@@ -162,12 +174,14 @@ python
 Copy
 Edit
 5 + 3  # Evaluates to 8
+
 🔢 ORDER OF OPERATIONS
 python
 Copy
 Edit
 result = 2 + 3 * 4 ** 2 / 8
 print(result)  # 8.0
+
 🔁 REASSIGNMENT & UPDATING VARIABLES
 REASSIGNING:
 python
@@ -183,7 +197,7 @@ Copy
 Edit
 score = 100
 score += 10
-print(score)  # Output: 110
+print(score)
 
 score -= 5
-print(score)  # Output: 105
+print(score)  
