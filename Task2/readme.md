@@ -1,10 +1,8 @@
-# Debugging Python Code: Assignment Guide
-
-This guide provides essential debugging techniques in Python, covering common errors, exception handling, multithreading issues, performance optimizations, and more.
+# Debugging-Assignment 
 
 ---
 
-## 1. Error Classification
+## Error Classification
 
 Errors in Python can be categorized into three types:
 
@@ -19,7 +17,7 @@ Errors in Python can be categorized into three types:
 
 ---
 
-## 2. Debugging Complex Functions
+## Debugging Complex Functions
 
 Debugging functions involves handling incorrect inputs and ensuring the correct logic flow.
 
@@ -30,7 +28,7 @@ Debugging functions involves handling incorrect inputs and ensuring the correct 
 
 ---
 
-## 3. Handling Unreliable Functions
+## Handling Unreliable Functions
 
 When dealing with unpredictable functions, exception handling ensures stability.
 
@@ -41,7 +39,7 @@ When dealing with unpredictable functions, exception handling ensures stability.
 
 ---
 
-## 4. Writing Debug-Friendly Code
+## Writing Debug-Friendly Code
 
 Refactoring improves readability and maintainability.
 
@@ -52,7 +50,7 @@ Refactoring improves readability and maintainability.
 
 ---
 
-## 5. Rubber Duck Debugging
+## Rubber Duck Debugging
 
 Explaining your code out loud can help identify issues.
 
@@ -63,7 +61,7 @@ Explaining your code out loud can help identify issues.
 
 ---
 
-## 6. Debugging Multi-Threaded Programs
+## Debugging Multi-Threaded Programs
 
 Multithreading can cause race conditions when accessing shared resources.
 
@@ -74,7 +72,7 @@ Multithreading can cause race conditions when accessing shared resources.
 
 ---
 
-## 7. Debugging with Breakpoints
+## Debugging with Breakpoints
 
 Using breakpoints in an IDE helps inspect variable states.
 
@@ -85,7 +83,7 @@ Using breakpoints in an IDE helps inspect variable states.
 
 ---
 
-## 8. Memory Optimization and Performance Debugging
+## Memory Optimization and Performance Debugging
 
 Improving memory efficiency helps optimize performance.
 
@@ -96,7 +94,7 @@ Improving memory efficiency helps optimize performance.
 
 ---
 
-## 9. Debugging None Returns
+## Debugging None Returns
 
 Ensuring functions return correct values is crucial.
 
@@ -107,7 +105,7 @@ Ensuring functions return correct values is crucial.
 
 ---
 
-## 10. Handling Silent Failures
+## Handling Silent Failures
 
 Errors should not be ignored without proper logging.
 
@@ -129,5 +127,3 @@ This guide covered essential debugging techniques, including:
 ✅ Preventing silent failures and ensuring correct return values.<br>
 
 ---
-
-*Happy Debugging! 🚀*
