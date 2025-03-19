@@ -131,7 +131,7 @@ print(add(3, 4))
 ##No return statement in above code
 
 
-# 10. Silent Failures
+# Silent Failures
 # Identify why the code doesn't raise an error
 try:
     result = 10 / 0
