@@ -5,19 +5,19 @@
 ### Access the Last Character of a String
 ```python
 my_string = "Hello"
-print(my_string[-1])  # Output: 'o'
+print(my_string[-1]) 
 ```
 
 ### Access the Third Element of a List
 ```python
 my_list = [10, 20, 30, 40, 50]
-print(my_list[2])  # Output: 30
+print(my_list[2]) 
 ```
 
 ### Length of a List with Nested Elements
 ```python
 my_list = [1, [2, 3], 4]
-print(len(my_list))  # Output: 3
+print(len(my_list)) 
 ```
 
 ## Slicing Operations
@@ -25,13 +25,13 @@ print(len(my_list))  # Output: 3
 ### Practical Example of Slicing
 ```python
 my_list = [10, 20, 30, 40, 50]
-print(my_list[1:4])  # Output: [20, 30, 40]
+print(my_list[1:4]) 
 ```
 
 ### Reverse a String Using Slicing
 ```python
 my_string = "Hello"
-print(my_string[::-1])  # Output: 'olleH'
+print(my_string[::-1]) 
 ```
 
 ## List Operations
@@ -41,14 +41,14 @@ print(my_string[::-1])  # Output: 'olleH'
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 result = list1 + list2
-print(result)  # Output: [1, 2, 3, 4, 5, 6]
+print(result)  
 ```
 
 ### List Repetition
 ```python
 list1 = [1, 2, 3]
 result = list1 * 3
-print(result)  # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
+print(result) 
 ```
 
 ## List Methods
@@ -57,14 +57,14 @@ print(result)  # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```python
 my_list = [1, 2, 3, 2, 4, 2]
 count = my_list.count(2)
-print(count)  # Output: 3
+print(count)  
 ```
 
 ### Difference Between `list.append()` and `list.extend()`
 ```python
 lst = [1, 2]
 lst.append(3)  # [1, 2, 3]
-lst.extend([4, 5])  # [1, 2, 3, 4, 5]
+lst.extend([4, 5])
 ```
 
 ## String Operations
@@ -73,14 +73,14 @@ lst.extend([4, 5])  # [1, 2, 3, 4, 5]
 ```python
 sentence = "Learn Python, step by step!"
 words = sentence.split()
-print(words)  # Output: ['Learn', 'Python,', 'step', 'by', 'step!']
+print(words) 
 ```
 
 ### Join a List into a String
 ```python
 words = ['Python', 'is', 'fun']
 result = ' '.join(words)
-print(result)  # Output: 'Python is fun'
+print(result) 
 ```
 
 ## Advanced List Operations
@@ -89,7 +89,7 @@ print(result)  # Output: 'Python is fun'
 ```python
 numbers = [1, 2, 2, 3, 4, 2]
 index = numbers.index(2)
-print(index)  # Output: 1
+print(index)
 ```
 
 ### Check if a String is a Palindrome
@@ -97,8 +97,10 @@ print(index)  # Output: 1
 def is_palindrome(s):
     return s == s[::-1]
 
-print(is_palindrome("racecar"))  # Output: True
-print(is_palindrome("hello"))  # Output: False
+print(is_palindrome("racecar"))
+# O/P:- True
+print(is_palindrome("hello"))
+#O/P:- False
 ```
 
 ### Find the Longest Word in a Sentence
@@ -107,7 +109,7 @@ def longest_word(sentence):
     words = sentence.split()
     return max(len(word) for word in words)
 
-print(longest_word("The quick brown fox jumped"))  # Output: 6
+print(longest_word("The quick brown fox jumped"))  
 ```
 
 ## Nested Lists and Tuples
@@ -115,14 +117,14 @@ print(longest_word("The quick brown fox jumped"))  # Output: 6
 ### Access Nested List Elements
 ```python
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(nested_list[1][2])  # Output: 6
+print(nested_list[1][2]) 
 ```
 
 ### Convert a List of Characters into a String
 ```python
 char_list = ['h', 'e', 'l', 'l', 'o']
 string = ''.join(char_list)
-print(string)  # Output: 'hello'
+print(string) 
 ```
 
 ### Remove Duplicates While Preserving Order
@@ -140,7 +142,7 @@ print(remove_duplicates([1, 2, 2, 3, 3, 4]))
 def sort_by_second_element(lst):
     return sorted(lst, key=lambda x: x[1])
 
-print(sort_by_second_element([(1, 3), (2, 1), (4, 2)]))  # Output: [(2, 1), (4, 2), (1, 3)]
+print(sort_by_second_element([(1, 3), (2, 1), (4, 2)]))  
 ```
 
 ### Flatten a Nested List
@@ -154,7 +156,7 @@ def flatten(lst):
             result.append(item)
     return result
 
-print(flatten([1, [2, [3, 4], 5], 6]))  # Output: [1, 2, 3, 4, 5, 6]
+print(flatten([1, [2, [3, 4], 5], 6])) 
 ```
 
 ## Special String and List Operations
@@ -165,7 +167,7 @@ def rotate_list(lst, k):
     k = k % len(lst)
     return lst[-k:] + lst[:-k]
 
-print(rotate_list([1, 2, 3, 4, 5], 2))  # Output: [4, 5, 1, 2, 3]
+print(rotate_list([1, 2, 3, 4, 5], 2)) 
 ```
 
 ### Check if Two Strings are Anagrams
@@ -173,7 +175,7 @@ print(rotate_list([1, 2, 3, 4, 5], 2))  # Output: [4, 5, 1, 2, 3]
 def are_anagrams(str1, str2):
     return sorted(str1) == sorted(str2)
 
-print(are_anagrams("listen", "silent"))  # Output: True
+print(are_anagrams("listen", "silent")) 
 ```
 
 ### Split a List into Chunks
@@ -181,7 +183,7 @@ print(are_anagrams("listen", "silent"))  # Output: True
 def chunk_list(lst, size):
     return [lst[i:i + size] for i in range(0, len(lst), size)]
 
-print(chunk_list([1, 2, 3, 4, 5, 6], 2))  # Output: [[1, 2], [3, 4], [5, 6]]
+print(chunk_list([1, 2, 3, 4, 5, 6], 2)) 
 ```
 
 ### Merge Two Sorted Lists
@@ -189,7 +191,7 @@ print(chunk_list([1, 2, 3, 4, 5, 6], 2))  # Output: [[1, 2], [3, 4], [5, 6]]
 def merge_sorted_lists(lst1, lst2):
     return sorted(lst1 + lst2)
 
-print(merge_sorted_lists([1, 3, 5], [2, 4, 6]))  # Output: [1, 2, 3, 4, 5, 6]
+print(merge_sorted_lists([1, 3, 5], [2, 4, 6])) 
 ```
 
 
